@@ -1,0 +1,86 @@
+#menu{
+    background-image: url(./img/paella.jpg);
+    background-size: cover;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+td {
+    background-color: #d1f7d4; /* Fondo verde claro para las horas abiertas */
+}
+
+td.closed {
+    background-color: #f7d1d4; /* Fondo rojo claro para las horas cerradas */
+}
+.mapaHorario{
+    display: flex;
+    align-items: flex-start;
+}
+.horario{
+    padding-left: 5%;
+    width: 100%;
+}
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    .navbar {
+        text-align: center;
+        padding-left: 20%;
+    }
+    .navbar div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    img.logo {
+        max-width: 100%;
+        height: auto;
+        order: 2;
+        margin-bottom: 10px; /* Espaciado opcional entre la imagen y el span */
+    }
+
+    .fs-4 {
+        order: 1;
+    }
+
+    .nav a {
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        color: #dc3545;
+    }
+
+    #menu h1 {
+        font-size: 2rem;
+    }
+
+    .mapaHorario {
+        flex-direction: column;
+    }
+
+    .horario {
+        padding-left: 0;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    #textoMenu{
+        width: 40%;
+    }
+}
