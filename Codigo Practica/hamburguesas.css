@@ -54,7 +54,7 @@ button:hover {
     background-color: firebrick;
 }
 
-h1, h4 {
+h1, h2 {
     text-align: center;
     color: darkred;
 }
@@ -108,7 +108,9 @@ h1, h4 {
     display: flex;
     background-size: cover;
 }
-
+footer a{
+    color: white;
+}
 @media (max-width: 768px) {
     .botones{
         flex-wrap: wrap;

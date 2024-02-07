@@ -168,6 +168,9 @@ h1 {
     display: flex;
     background-size: cover;
 }
+footer a{
+    color: white;
+}
 
 @media (max-width: 768px) {
     .botones{
