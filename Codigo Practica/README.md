@@ -1,1 +1,1 @@
-# dissenyiwTaylorAlexJose
+# 3.1.2 The human language of each passage or phrase in the content can be programmatically determined except for proper names, technical terms, words of indeterminate language, and words or phrases that have become part of the vernacular of the immediately surrounding text.
