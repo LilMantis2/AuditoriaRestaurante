@@ -19,3 +19,5 @@
 # 2.4.7-Focus Visible:Any keyboard operable user interface has a mode of operation where the keyboard focus indicator is visible.
 
 # 3.2.4-Components that have the same functionality within a set of Web pages are identified consistently.
+
+# 3.3.6-Error Prevention-Confirmed: A mechanism is available for reviewing, confirming, and correcting information before finalizing the submission. Checked: Data entered by the user is checked for input errors and the user is provided an opportunity to correct them.
