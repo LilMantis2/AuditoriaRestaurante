@@ -21,15 +21,13 @@ form.onsubmit = function (event) {
     form.classList.add('was-validated');
 };
 
-/* Attach events oninput*/
-nom.oninput = function () {
+nom.oninput = function () { /* Attach events oninput*/
     setValidity(this, validaLlargaria(this.value, 2, 24) + nomesLletres(this.value));
 };
 llin1.oninput = function () {
     setValidity(this, validaLlargaria(this.value, 2, 24) + nomesLletres(this.value));
 };
-/* Funció que marca els inputs com a vàlids/invàlids*/
-function setValidity(element, msgError) {
+function setValidity(element, msgError) { /* Funció que marca els inputs com a vàlids/invàlids*/
     element.classList.remove("is-invalid");
     element.classList.remove("is-valid");
 
@@ -38,12 +36,9 @@ function setValidity(element, msgError) {
     } else {
         element.classList.add("is-invalid");
     }
-
     element.setCustomValidity(msgError);
     document.querySelector(`#error-${element.id}`).textContent = msgError;
 }
-
-
 function validaLlargaria(input, min, max) {
     if (input.length < min) return `La mida mínima és ${min}. `;
     else if (input.length > max) return `La mida máxima és ${max}. `;
@@ -51,7 +46,6 @@ function validaLlargaria(input, min, max) {
 }
 function nomesLletres(input) {
     var regExp = /^[A-Za-zñçáéíóúÁÉÍÓÚ\s]*$/;
-
     return regExp.test(input) ? "" : "Només es peremeten lletres.";
 }
 function nomesNumeros(input) {
