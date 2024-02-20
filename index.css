@@ -1,14 +1,16 @@
-#menu{
-    background-image: url(./img/paella.jpg);
+#menu {
+    background-image: url(./img/varios/paella.jpg);
     background-size: cover;
 }
+
 table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
 }
 
-th, td {
+th,
+td {
     border: 1px solid #ddd;
     padding: 8px;
     text-align: center;
@@ -19,20 +21,25 @@ th {
 }
 
 td {
-    background-color: #d1f7d4; /* Fondo verde claro para las horas abiertas */
+    background-color: #d1f7d4;
+    /* Fondo verde claro para las horas abiertas */
 }
 
 td.closed {
-    background-color: #f7d1d4; /* Fondo rojo claro para las horas cerradas */
+    background-color: #f7d1d4;
+    /* Fondo rojo claro para las horas cerradas */
 }
-.mapaHorario{
+
+.mapaHorario {
     display: flex;
     align-items: flex-start;
 }
-.horario{
+
+.horario {
     padding-left: 5%;
     width: 100%;
 }
+
 @media (max-width: 768px) {
     body {
         font-size: 16px;
@@ -42,6 +49,7 @@ td.closed {
         text-align: center;
         padding-left: 20%;
     }
+
     .navbar div {
         display: flex;
         flex-direction: column;
@@ -52,7 +60,8 @@ td.closed {
         max-width: 100%;
         height: auto;
         order: 2;
-        margin-bottom: 10px; /* Espaciado opcional entre la imagen y el span */
+        margin-bottom: 10px;
+        /* Espaciado opcional entre la imagen y el span */
     }
 
     .fs-4 {
@@ -80,7 +89,7 @@ td.closed {
         margin-top: 20px;
     }
 
-    #textoMenu{
+    #textoMenu {
         width: 40%;
     }
 }

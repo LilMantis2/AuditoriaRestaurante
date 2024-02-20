@@ -29,7 +29,8 @@ body {
     padding: 1%;
 }
 
-#arriba, #abajo {
+#arriba,
+#abajo {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -59,53 +60,55 @@ h1 {
     color: darkred;
 }
 
-.card-body{
-    background-color:darkred;
+.card-body {
+    background-color: darkred;
     color: white !important;
 }
 
-.card-body .text-muted{
+.card-body .text-muted {
     color: white !important;
 }
 
-.card-body:hover .text-muted{
+.card-body:hover .text-muted {
     color: black !important;
 }
 
-.card-body:hover{
-    background-color:firebrick;
+.card-body:hover {
+    background-color: firebrick;
     color: black !important;
 }
-#a1{
+
+#a1 {
     background-image: url(./img/tablas/Tapa_iberica.jpg);
     display: flex;
     background-size: cover;
 }
 
 
-#a2{
+#a2 {
     background-image: url(./img/tablas/tablajamon.png.jpg);
     display: flex;
     background-size: cover;
 }
 
-#a3{
+#a3 {
     background-image: url(./img/tablas/tabla-iberica-queso.webp);
     display: flex;
     background-size: cover;
 }
 
-#a4{
+#a4 {
     background-image: url(./img/tablas/tabla-queso-curado.jpg);
     display: flex;
     background-size: cover;
 }
-footer a{
+
+footer a {
     color: white;
 }
 
 @media (max-width: 768px) {
-    .botones{
+    .botones {
         flex-wrap: wrap;
     }
 }

@@ -15,8 +15,8 @@ form.onsubmit = function (event) {
         event.preventDefault();
         event.stopPropagation();
         alert("Revisau les errades abans de continuar");
-    }else{
-        mensaje.textContent="Reserva realitzada.";
+    } else {
+        mensaje.textContent = "Reserva realitzada.";
     }
     form.classList.add('was-validated');
 };
